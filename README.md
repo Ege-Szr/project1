@@ -74,7 +74,7 @@ python main.py
 
 -> After the running the program,a "Welcome to the menu" message and available options will be displayed.
 
-![Main Menu](image/menu.png)
+![Main Menu](image/Menu.png)
 
 
 
