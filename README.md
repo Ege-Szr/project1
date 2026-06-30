@@ -20,7 +20,7 @@ git clone https://github.com/Ege-Szr/project1.git
 2) ### Go to the project directory
 
 ```bash
-cd project1
+cd Account-Management-System
 ```
 
 3) ### Run the project
@@ -42,7 +42,7 @@ python main.py
 ## Project Structure
 
 ```
-project1/
+Account-Management-System/
 |
 ├──main.py                  -> Main application logic and user input handling
 ├──database.py              -> All database operations 
