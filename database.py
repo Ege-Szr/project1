@@ -1,5 +1,6 @@
 import sqlite3 as sql
 
+
 connect=sql.connect("Accounts_Information.db")
 cursor=connect.cursor()
 cursor.execute("CREATE TABLE IF NOT EXISTS mail_accounts(id INTEGER PRIMARY KEY, mail_Address TEXT NOT NULL UNIQUE, password TEXT NOT NULL)")
