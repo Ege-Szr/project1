@@ -2,6 +2,7 @@ import re
 from database import add_account,update_account,delete_account,show_users_information
 import time
 
+
 def My_Sign_Up():
           
     try:
@@ -49,10 +50,10 @@ while True:
     print("------WELCOME TO THE MENU------")
     print("Enter 1 to sign up")
     print("Enter 2 to sign in")
-    print("Enter 3 for update account")
-    print("Enter 4 for delete account")
-    print("Enter 5 for show user information:")
-    print("Enter 6 for exit")
+    print("Enter 3 to update account")
+    print("Enter 4 to delete account")
+    print("Enter 5 to show user information:")
+    print("Enter 6 to exit")
     choice=input("Please enter your choice: ")
 
     if choice=="1":
@@ -65,7 +66,6 @@ while True:
         now_mail=input("Email address:")
         now_password=input("Password:")
         result=show_users_information(now_mail,now_password)
-
 
 
         if "were found" in result:
@@ -131,8 +131,9 @@ while True:
     elif choice=="6":
         print("Exiting the program...")
         time.sleep(2)
-        print("Program exited")
+        print("Program exited.")
         break
+
 
     else:
         print("Please try again")
