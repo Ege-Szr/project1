@@ -14,7 +14,7 @@ In this **Account Management System**, users can perform the following actions:
 1) ### Clone the repository
 
 ```bash 
-git clone https://github.com/Ege-Szr/project1.git
+git clone https://github.com/Ege-Szr/Account-Management-System
 ```
 
 2) ### Go to the project directory
