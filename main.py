@@ -69,7 +69,7 @@ while True:
 
 
         if "were found" in result:
-            print("------WELCOME TO THE UPDATE PAGE------")
+            print("------WELCOME TO THE UPDATE MENU------")
             print("Enter 1 to update email address:")
             print("Enter 2 to update password: ")
             print("Enter 3 to update both of them:")
